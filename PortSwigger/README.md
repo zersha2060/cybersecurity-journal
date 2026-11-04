@@ -26,5 +26,9 @@ Each lab is documented separately, covering:
 <h2>Resources</h2>
 
 - PortSwigger Web Security Academy
+
+<h2>Disclaimer</h2>
+Some markups documented here are completed around the year 2024-2025, transferred from a local notetaking app to here for educational and portfolio purposes.
+
 --------------------------------------------
 Documenting practical web application security exercises.
