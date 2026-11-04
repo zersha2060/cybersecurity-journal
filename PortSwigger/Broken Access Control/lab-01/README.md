@@ -1,61 +1,76 @@
 <h1>[PortSwigger Lab Name]</h1>
 
-<h2>Lab Information</h2>
+<h2>1. Lab Information</h2>
 
 | Field |	Details |
 | --- | --- |
 | Platform	| PortSwigger Web Security Academy |
-| Vulnerability	| [Vulnerability type] |
+| Category | [Vulnerability category] |
 | Difficulty	| [Apprentice / Practitioner / Expert] |
 | Status	| Completed |
 | Date Completed |	[Date] |
+| Tools Used | [Tools] |
 
-<h2> 1. Objective </h2>
+<h2> 2. Overview </h2>
 
-What is the lab asking you to accomplish?
+Briefly explain the lab scenario and the vulnerability being investigated.
 
-<h2> 2. Vulnerability Overview </h2>
+<h2> 3.Objective </h2>
 
-Explain the vulnerability and the underlying security concept.
+Describe what the lab requires you to accomplish.
 
-<h2> 3. Technical Investigation </h2>
+<h2> 4. Vulnerability Explanation </h2>
 
-Describe how you approached the lab.
+Explain:
 
-<h3>Initial Observations</h3>
+- What the vulnerability is.
+- How it occurs.
+- Why it represents a security risk.
 
-[Describe what you observed.]
+<h2>5. Technical Methodology</h2>
 
-<h3>Testing Methodology</h3>
+Document your actual investigation process.
 
-[Describe the testing process.]
+<h3> 5.1 Initial Reconnaisance </h3>
 
-<h3>Findings</h3>
+Describe your initial observations.
 
-[Describe the security issue you identified.]
+<h3> 5.2 Request Analysis </h3>
 
-<h2> 4. Tools Used </h2>
+Explain relevant HTTP requests, parameters, headers, cookies, or application behavior.
 
-- Burp Suite
-- Browser developer tools
-- [Other tools]
+<h3> 5.3 Vulnerability Investigation </h3>
 
-<h2> 5. Security Impact </h2>
+Describe the testing approach and observations.
 
-Explain the potential consequences of the vulnerability in a real-world application.
+<h3> 5.4 Verifications </h3>
 
-<h2> 6. Remediation </h2>
+Explain how you confirmed the vulnerability within the authorized lab environment.
 
-Explain how developers can prevent or mitigate this vulnerability.
+<h2>6. Findings</h2>
 
-<h2> 7. Key Takeaways </h2>
+Summarize the identified vulnerability, root cause, and observed impact.
 
-[Concept learned]
-[Technique understood]
-[Important observation]
+<h2>7. Security Impact</h2>
 
-<h2>References</h2>
-[PortSwigger documentation]
+Explain the potential real-world consequences.
+
+<h2> 8. Recommended Remediation </h2>
+
+Describe how developers can prevent or mitigate the vulnerability.
+
+<h2> 9. Evidence </h2>
+
+Include relevant screenshots, sanitized requests, and observations.
+
+<h2> 10. Key Takeaways </h2>
+
+Summarize the technical concepts and skills learned.
+
+<h2> 11. References </h2>
+
+- [PortSwigger documentation]
+- [Relevant security references]
 
 --------------------------------------
 Lab completed in the authorized PortSwigger training environment.
