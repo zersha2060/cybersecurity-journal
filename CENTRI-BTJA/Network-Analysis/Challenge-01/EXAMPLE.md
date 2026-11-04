@@ -141,6 +141,9 @@ By examining the DNS query and its corresponding response, relevant information 
 | 02-dns-filter.png	| DNS display filter |
 | 03-packet-details.png	| DNS query and response fields |
 
+<img width="852" height="852" alt="image" src="https://github.com/user-attachments/assets/8825398f-1203-4648-b63f-ebce334c2e5e" />
+
+
 <h2>11. References</h2>
 
 - Wireshark Documentation
