@@ -6,53 +6,86 @@ This repository documents my hands-on cybersecurity learning journey through pra
 
 My goal is to strengthen my technical knowledge, develop practical security skills, and maintain a record of the challenges and concepts I have explored.
 
-<h2>Platforms</h2>
-<h3>PortSwigger Web Security Academy</h3>
+<h2>Areas of Practice</h2>
+
+| Area | Platform | Focus |
+| --- | --- | --- |
+| Web Application Security | PortSwigger Web Security Academy | Vulnerability identification and analysis |
+| Systems Security | pwn.college | Practical cybersecurity and computer systems exercises |
+| Network Security | CENTRI BTJA | Network traffic analysis and PCAP investigation |
+
+<h2> Platforms & Activities </h2>
+<h3> 1. PortSwigger Web Security Academy</h3>
 
 Hands-on web application security labs covering vulnerabilities, attack techniques, and security concepts.
 
 **Topics explored:**
 
 - Broken Access Control
+- SQL Injection
+- Authentication Vulnerabilities
+- Path Traversal and File Upload Vulnerabilities
+- Cross-site Scripting (XSS)
+- Server-side vulnerabilities
+
+Explore PortSwigger Documentation
 
 <h3>pwn.college</h3>
 
 Practical cybersecurity exercises and modules focused on computer systems, security fundamentals, and technical problem-solving.
 
-**Topics explored:**
+**Documentation includes:**
 
-- Linux Luminarium
-- [Add relevant concepts]
+- Completed Dojo Modules
+- Challenge Objectives
+- Technical Approaches
+- Commands and Tools
+- Key Takeaways
+
+Explore pwn.college Documentation
 
 <h3>CENTRI's Blue Team Junior Analyst Pathway </h3>
 
 Hands-on cybersecurity challenges involving network traffic analysis and investigation of provided PCAP files.
 
-**Topics explored:**
+**Areas of Practice:**
 
 - Network traffic analysis
 - Wireshark
 - tcpdump
 - Network protocol investigation
+- Traffic filtering
+- Packet Inspection
 - PCAP analysis
+
+Explore CENTRI BTJA Documentation
 
 <h2>Tools & Technologies</h2>
 
-- Wireshark
-- tcpdump
-- BurpSuite
-- Linux
-<h2>Documentation Approach</h2>
+| Tool | Application |
+| --- | --- |
+| Burp Suite | Web application security testing |
+| Wireshark | Network packet analysis |
+| tcpdump | Command-line packet analysis |
+| Linux | Command-line environment and system operations |
+| Git & Github | Version Control and technical documentation |
 
-Each documented activity may include:
+<h2>Documentation Standards</h2>
 
-- Challenge objectives
-- Technical methodology
-- Tools and commands used
-- Findings and observations
-- Screenshots and supporting evidence
-- Key takeaways and lessons learned
+Each documented activity aims to include:
+
+- Challenge overview and objectives
+- Concepts and vulnerabilities explored
+- Tools and techniques used
+- Methodology and investigation process
+- Relevant findings and observations
+- Supporting screenshots or sanitized evidence
+- Lessons learned and technical takeaways
+
+<h2>Learning Progress</h2>
+
+See PROGRESS.md for an overview of documented activities and learning progress.
 
 <h2>Disclaimer</h2>
 
-This repository is intended for educational and portfolio purposes. All activities documented here were conducted within authorized training platforms and lab environments.
+This repository is intended for educational and portfolio purposes. Practical exercises are conducted within authorized training environments and platforms. Sensitive information, private assessment materials, and unauthorized data are not intended for publication.
