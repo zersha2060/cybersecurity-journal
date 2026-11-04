@@ -56,5 +56,6 @@ Explain how developers can prevent or mitigate this vulnerability.
 
 <h2>References</h2>
 [PortSwigger documentation]
+
 --------------------------------------
 Lab completed in the authorized PortSwigger training environment.
