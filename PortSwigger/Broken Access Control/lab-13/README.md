@@ -8,7 +8,7 @@
 | Category | Broken Access Control |
 | Difficulty | Practitioner |
 | Status | Completed |
-| Date Completed | [Date] |
+| Date Completed | 2025 |
 | Tools Used | Burp Suite, Web Browser |
 
 <h2>2. Overview</h2>
