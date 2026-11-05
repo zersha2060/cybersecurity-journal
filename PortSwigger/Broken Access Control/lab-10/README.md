@@ -8,7 +8,7 @@
 | Category | Broken Access Control |
 | Difficulty | Apprentice |
 | Status | Completed |
-| Date Completed | [Date] |
+| Date Completed | 2025 |
 | Tools Used | Web Browser |
 
 <h2>2. Overview</h2>
