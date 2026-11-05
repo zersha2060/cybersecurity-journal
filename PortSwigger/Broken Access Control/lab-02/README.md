@@ -1,4 +1,4 @@
-<h1>Unprotected admin functionalityr</h1>
+<h1>Unprotected admin functionality with unpredictable URL</h1>
 
 <h2>1. Lab Information</h2>
 
