@@ -1,154 +1,70 @@
-<h1>DNS Traffic Analysis</h1>
+<h1>SBT Wireshark Challenge – Network Traffic Analysis</h1>
 
 <h2>1. Challenge Information</h2>
 
-| Field |	Details |
+| Field | Details |
 | --- | --- |
-| Platform	| CENTRI BTJA |
-| Category	| Network Traffic Analysis |
-| Challenge	| DNS Traffic Investigation |
-| File Analyzed	| dns-traffic.pcap |
-| Tools	| Wireshark, tcpdump |
-| Protocol	| DNS |
-| Status	| Completed |
-| Date Completed	| [Date] | 
+| Platform | SBT |
+| Category | Network Traffic Analysis |
+| Challenge | Wireshark Challenge |
+| Files Analyzed | [resources/PCAPs/SBT-PCAP1.pcapng], [resources/PCAPs/SBT-PCAP2.pcapng] |
+| Tools | Wireshark |
+| Protocols | Multiple (depending on captured traffic) |
+| Status | Completed |
+| Date Completed | Sept. 13, 2026 |
 
 <h2>2. Challenge Overview</h2>
 
-This challenge involves analyzing a provided PCAP file to investigate DNS traffic.
+This challenge involves analyzing two provided PCAP files to investigate captured network traffic and identify relevant information based on the challenge requirements.
 
-The objective is to inspect captured network packets, identify DNS queries and responses, and extract relevant information from the traffic.
+The objective is to examine network packets, identify communication patterns, inspect protocol-specific information, and extract relevant details from the captured traffic.
+
+Both PCAP files are analyzed to identify important network events and answer the questions associated with the challenge.
 
 <h2>3. Investigation Objectives</h2>
 
-The investigation aims to identify:
+The investigation aims to:
 
-1. The queried domain name.
-2. The DNS response IP address.
-3. The DNS record type.
+1. Examine the contents of both PCAP files.
+2. Identify the protocols and network services involved.
+3. Analyze relevant packets and communication sessions.
+4. Identify important source and destination addresses.
+5. Extract relevant information from packet contents.
+6. Correlate findings between the two PCAP files where applicable.
+7. Answer the questions provided in the challenge.
 
 <h2>4. Tools Used</h2>
 
-| Tool |	Purpose |
+| Tool | Purpose |
 | --- | --- |
-| Wireshark	| Graphical packet inspection and protocol analysis |
-| tcpdump	| Command-line PCAP inspection |
+| Wireshark | Graphical packet inspection and protocol analysis |
+| Display Filters | Narrow down traffic based on specific protocols and packet attributes |
+| Follow Stream | Reconstruct application-level communication |
 
 <h2>5. Investigation Methodology</h2>
 
 <h3>5.1 Initial PCAP Inspection</h3>
 
-I opened the provided PCAP file in Wireshark to inspect the captured network traffic.
+I opened the first PCAP file in Wireshark to examine the captured network traffic.
 
-The initial examination focused on identifying the protocols present in the capture and determining whether DNS traffic was included.
+I repeated the same process for the second PCAP file to identify the protocols, communication patterns, and relevant network activity.
 
-<h3>5.2 DNS Traffic Filtering</h3>
+The initial examination focused on:
 
-I applied the following Wireshark display filter:
+- Total number of captured packets.
+- Protocol distribution.
+- Source and destination IP addresses.
+- Communication between hosts.
+- Potentially interesting network activity.
 
-```
-dns
-```
+<h3>5.2 Protocol Identification</h3>
 
-This narrowed the packet list to DNS-related traffic.
+I examined the Protocol Hierarchy in Wireshark to identify the protocols present in each capture.
 
-<h3>5.3 DNS Query Examination</h3>
+This helped determine which types of network traffic were involved and which protocols required further investigation.
 
-I inspected the DNS query packets and examined the relevant packet fields.
+<h3>5.3 Packet Filtering and Analysis</h3>
 
-The investigation focused on:
+I applied appropriate Wireshark display filters to narrow down the captured traffic.
 
-- DNS query name.
-- Query type.
-- Source and destination addresses.
-- DNS transaction information.
-
-<h3>5.4 DNS Response Examination</h3>
-
-I examined the corresponding DNS response to identify the returned information.
-
-The response was inspected for:
-
-- Response code.
-- Answer records.
-- Returned IP address.
-- DNS record type.
-
-<h3>5.5 Command-Line Verification</h3>
-
-I also used tcpdump to inspect DNS-related traffic in the provided PCAP.
-
-Example command:
-
-```
-tcpdump -nn -r dns-traffic.pcap port 53
-```
-
-This provided an additional way to examine DNS traffic through the command line.
-
-<h2>6. Findings</h2>
-
-The following values are illustrative placeholders, not findings from an actual capture.
-
-<h3>Finding 1 – Queried Domain</h3>
-
-Question: What domain name was requested?
-Observation: A DNS query for example.com was identified.
-Evidence: DNS query packet.
-Answer: example.com
-
-<h3>Finding 2 – Resolved IP Address</h3>
-
-Question: What IP address was returned?
-Observation: The DNS response contained an illustrative A record.
-Evidence: Corresponding DNS response packet.
-Answer: 93.184.216.34
-
-<h3>Finding 3 – DNS Record Type</h3>
-
-Question: What DNS record type was used?
-Observation: The query requested an IPv4 address.
-Evidence: DNS query details.
-Answer: A record.
-
-<h2>7. Technical Analysis</h2>
-
-DNS (Domain Name System) is responsible for translating domain names into corresponding network information.
-
-In this investigation, the DNS query and response packets provided information about the requested domain and the returned DNS record.
-
-Wireshark allowed the DNS protocol fields to be examined through its graphical interface, while tcpdump provided a command-line method for reviewing the same capture.
-
-<h2>8. Conclusion</h2>
-
-The investigation demonstrated how DNS traffic can be identified and analyzed through PCAP inspection.
-
-By examining the DNS query and its corresponding response, relevant information about the requested domain and returned record could be extracted.
-
-<h2>9. Lessons Learned</h2>
-
-- Learned how DNS queries and responses appear in packet captures.
-- Practiced filtering DNS traffic using Wireshark.
-- Used tcpdump to inspect DNS traffic from a PCAP file.
-- Understood the difference between DNS queries and responses.
-- Learned how DNS record types provide different types of information.
-
-<h2>10. Evidence</h2>
-
-| Screenshot	| Description |
-| --- | --- |
-| 01-packet-overview.png | Initial PCAP inspection |
-| 02-dns-filter.png	| DNS display filter |
-| 03-packet-details.png	| DNS query and response fields |
-
-<img width="852" height="852" alt="image" src="https://github.com/user-attachments/assets/8825398f-1203-4648-b63f-ebce334c2e5e" />
-
-
-<h2>11. References</h2>
-
-- Wireshark Documentation
-- tcpdump Manual
-- RFC 1035 – Domain Names
-
-------------------------
-Documented as part of my hands-on network traffic analysis and cybersecurity learning activities.
+Examples of filters used during the investigation:
