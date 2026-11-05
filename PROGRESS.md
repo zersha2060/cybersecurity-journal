@@ -16,7 +16,7 @@ This file tracks my documented hands-on cybersecurity activities.
 
 | Dojo / Module |	Completed Challenges |	Status |
 | --- | --- | --- |
-| [Module name] |	TBD	| To be documented |
+| Linux Luminarium |	TBD	| To be documented |
 
 <h2>CENTRI BTJA</h2>
 
