@@ -90,4 +90,4 @@ See PROGRESS.md for an overview of documented activities and learning progress.
 
 This repository is intended for educational and portfolio purposes. Practical exercises are conducted within authorized training environments and platforms. Sensitive information, private assessment materials, and unauthorized data are not intended for publication.
 
-This journal is in the process of transferring my completed and in progress lab challenges/exercises from a local notetaking app. Some challenges may still be empty at the moment.
+This journal is in the process of transferring my completed and in progress lab challenges/exercises from a local notetaking app. Some challenges may still be empty or haven't been added at the moment.
