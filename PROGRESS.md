@@ -6,10 +6,10 @@ This file tracks my documented hands-on cybersecurity activities.
 
 | Category | Completed Labs |	Status |
 | --- | --- | --- |
+| Access Control	| 13	| Completed |
 | SQL Injection |	TBD |	In progress |
 | Cross-Site Scripting | TBD | In progress |
 | Authentication	| TBD	| In progress |
-| Access Control	| TBD	| In progress |
 | Path Traversal	| TBD	| In progress |
 
 <h2>pwn.college</h2>
@@ -35,4 +35,4 @@ This file tracks my documented hands-on cybersecurity activities.
 - Explore additional cybersecurity training platforms.
   
 ---------------------------------
-Progress is updated as activities are completed and documented.
+Progress is updated as activities are completed and documented. Labs completed way before are in the process of getting transferred.
