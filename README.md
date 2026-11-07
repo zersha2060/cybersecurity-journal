@@ -13,6 +13,7 @@ My goal is to strengthen my technical knowledge, develop practical security skil
 | Web Application Security | PortSwigger Web Security Academy | Vulnerability identification and analysis |
 | Systems Security | pwn.college | Practical cybersecurity and computer systems exercises |
 | Network Security | CENTRI BTJA | Network traffic analysis and PCAP investigation |
+| Linux Fundamentals | OverTheWire: Bandit | Linux commands, file permissions, and command-line fundamentals |
 
 <h2> Platforms & Activities </h2>
 <h3> 1. PortSwigger Web Security Academy</h3>
@@ -28,7 +29,7 @@ Hands-on web application security labs covering vulnerabilities, attack techniqu
 - Cross-site Scripting (XSS)
 - Server-side vulnerabilities
 
-Explore PortSwigger Documentation
+**Documentation:** Explore PortSwigger Documentation
 
 <h3>pwn.college</h3>
 
@@ -42,7 +43,7 @@ Practical cybersecurity exercises and modules focused on computer systems, secur
 - Commands and Tools
 - Key Takeaways
 
-Explore pwn.college Documentation
+**Documentation:** Explore pwn.college Documentation
 
 <h3>CENTRI's Blue Team Junior Analyst Pathway </h3>
 
@@ -58,7 +59,22 @@ Hands-on cybersecurity challenges involving network traffic analysis and investi
 - Packet Inspection
 - PCAP analysis
 
-Explore CENTRI BTJA Documentation
+**Documentation:** Explore CENTRI BTJA Documentation
+
+<h3>4. OverTheWire: Bandit</h3>
+
+Practical Linux command-line exercises designed to develop familiarity with Linux environments and fundamental system operations.
+
+Documentation will include:
+
+- Level Objectives
+- Linux Commands
+- File and Directory Operations
+- Permissions and Ownership
+- SSH and Remote Connections
+- Lessons Learned
+
+Documentation: Explore OverTheWire Documentation
 
 <h2>Tools & Technologies</h2>
 
@@ -69,6 +85,12 @@ Explore CENTRI BTJA Documentation
 | tcpdump | Command-line packet analysis |
 | Linux | Command-line environment and system operations |
 | Git & Github | Version Control and technical documentation |
+
+<h2>Resources</h2>
+
+A collection of personal technical references, command documentation, and useful security-related notes.
+
+- Wireshark Filters
 
 <h2>Documentation Standards</h2>
 
@@ -86,8 +108,20 @@ Each documented activity aims to include:
 
 See PROGRESS.md for an overview of documented activities and learning progress.
 
+<h2>Repository Status</h2>
+
+**Status: Actively maintained and under development.**
+
+I am currently transferring and organizing previously completed and ongoing lab exercises, technical notes, and documentation from a local note-taking application into this repository.
+
+Some directories may currently be empty or contain incomplete documentation. Additional writeups, technical references, and practical exercises will be added progressively as I continue my cybersecurity learning journey.
+
 <h2>Disclaimer</h2>
 
-This repository is intended for educational and portfolio purposes. Practical exercises are conducted within authorized training environments and platforms. Sensitive information, private assessment materials, and unauthorized data are not intended for publication.
+This repository is intended for educational, research, and portfolio purposes. 
 
-This journal is in the process of transferring my completed and in progress lab challenges/exercises from a local notetaking app. Some challenges may still be empty or haven't been added at the moment.
+All practical exercises and security testing activities are intended to be conducted within authorized training environments, intentionally vulnerable applications, or systems for which permission has been granted.
+
+Documentation is based on personal learning experiences and observations. Sensitive information, credentials, private assessment materials, confidential data, and unauthorized information are not intended for publication.
+
+The content of this repository is maintained as a personal learning journal and does not represent the views or affiliations of any training platform or organization.
