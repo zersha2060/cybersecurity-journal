@@ -7,7 +7,7 @@
 | Platform | SBT |
 | Category | Network Traffic Analysis |
 | Challenge | Wireshark Challenge |
-| Files Analyzed | [resources/PCAPs/SBT-PCAP1.pcapng], [resources/PCAPs/SBT-PCAP2.pcapng] |
+| Files Analyzed | SBT-PCAP1.pcapng, SBT-PCAP2.pcapng |
 | Tools | Wireshark |
 | Protocols | Multiple (depending on captured traffic) |
 | Status | Completed |
