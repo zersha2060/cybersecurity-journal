@@ -38,8 +38,8 @@ Practical cybersecurity exercises and modules focused on computer systems, secur
 **Documentation includes:**
 
 - Completed Dojo Modules
-- Challenge Objectives
-- Technical Approaches
+- Learning Objectives
+- Skills Practiced and Learned
 - Commands and Tools
 - Key Takeaways
 
