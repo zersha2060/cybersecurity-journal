@@ -22,9 +22,9 @@ This file tracks my documented hands-on cybersecurity activities.
 
 | Activity	| Completed Challenges |	Status |
 | --- | --- | --- |
-| Wireshark Analysis |	TBD	| To be documented |
-| tcpdump Analysis	| TBD	| To be documented |
-| PCAP Investigations	| TBD |	To be documented |
+| Network Analysis |	3	| In progress |
+| OSINT	| TBD	| To be documented |
+| Digital Forensics	| TBD |	To be documented |
 
 <h2>Future Learning Goals</h2>
 
